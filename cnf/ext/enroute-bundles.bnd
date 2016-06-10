@@ -1,0 +1,7 @@
+-plugin.org.osgi: \
+\
+	aQute.bnd.repository.maven.provider.MavenBndRepository; \
+		snapshotUrl=https://oss.sonatype.org/content/repositories/osgi-snapshots/; \
+		releaseUrl= http://repo1.maven.org/maven2/; \
+		index=${.}/org.osgi.maven; \
+		name="OSGi enRoute Snapshot"
